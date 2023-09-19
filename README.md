@@ -21,10 +21,10 @@ The data schema is requesting three columns: 'Full Name' (string of up to 50 cha
 
 ## Constructor Parameters
 data_schema (dict): A dictionary with the data columns to be created into the data file. 
-The keys are column names, and the values are other dictionaries containing:
-  type: the data type of the column (can be 'string', 'int', 'float', or 'bool').
-  max_length: the maximum length of the column.
-  num_rows (int): The number of data rows to be generated in the file.
+The keys are column names, and the values are other dictionaries containing:  
+  type: the data type of the column (can be 'string', 'int', 'float', or 'bool').  
+  max_length: the maximum length of the column.  
+  num_rows (int): The number of data rows to be generated in the file.  
 
 output_file_name (str): Name of the output file that will contain the generated data.
 
@@ -32,11 +32,11 @@ output_file_name (str): Name of the output file that will contain the generated 
 The run() method is responsible for generating the data based on the specified schema. It creates a CSV file with a column header corresponding to the schema and fills the rows with fictional data following the schema specifications.
 
 ## Data Type Support
-The Mock Data Generator supports four data types: string, int, float, bool
+The Mock Data Generator supports four data types:  
 
-string: Strings based on the specified maximum length.
-int: Integer numbers within a range compatible with the maximum length.
-float: Random floating-point numbers within a range compatible with the maximum length.
+string: Strings based on the specified maximum length.  
+int: Integer numbers within a range compatible with the maximum length.  
+float: Random floating-point numbers within a range compatible with the maximum length.  
 bool: Random boolean values (True or False).
 
 ## Author
